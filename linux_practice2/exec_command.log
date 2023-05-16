@@ -1,0 +1,32 @@
+cd server_lesson
+cd /root
+cd server_lesson
+mkdir linux_practice2
+ls
+cd linux_practice2
+touch 
+mkdir documents
+cd documents
+touch gizumo_{01..50}.md
+ls
+cd ../
+mkdir trash
+cd trash
+mv gizumo_{20..40}.md
+cd ../
+cd documents
+mv gizumo_{20..40}.md
+mv gizumo_{20..40}.md trash
+mv gizumo_{20..40}.md /trash
+mv gizumo_{20..40}.md ../trash
+cd trash
+cd ../
+cd trash
+ls
+cd ../
+touch .gitignore
+vi .gitignore
+vi .gitignore
+history 300
+history 300 -w exec_command.log
+history -w exec_command.log
