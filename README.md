@@ -1,3 +1,3 @@
--cp
--rm rf /
--mv
+- cp
+- rm rf /
+- mv
